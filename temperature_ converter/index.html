@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sıcaklık Birimi Çevirici</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <h1 class="tempTitle">Sıcaklık Birimi Çeviricisi</h1>
+        <div class="tempContent">
+            <p>Celcius (°C)</p>
+            <input onchange="calculatorTemperature(event)"  type="number" name="celcius" id="celcius" placeholder="Sıcaklık değerini giriniz.">
+        </div>
+        <div class="tempContent">
+            <p>Fahrenheit (°F)</p>
+            <input  onchange="calculatorTemperature(event)" type="number" name="fahrenheit" id="fahrenheit" placeholder="Sıcaklık değerini giriniz.">
+        </div>
+        <div class="tempContent">
+            <p>Kelvin (°K)</p>
+            <input  onchange="calculatorTemperature(event)" type="number" name="kelvin" id="kelvin" placeholder="Sıcaklık değerini giriniz.">
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
